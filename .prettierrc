@@ -2,7 +2,7 @@
   "semi": false,
   "overrides": [
     {
-      "files": ["*.js", "*.jsx", "*.ts", "*.tsx"],
+      "files": ["*.js", "*.jsx", "*.ts", "*.tsx", "*.scss"],
       "options": {
         "tabWidth": 4,
         "singleQuote": true,
