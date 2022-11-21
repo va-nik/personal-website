@@ -6,7 +6,7 @@
       "options": {
         "tabWidth": 4,
         "singleQuote": true,
-        "jsxSingleQuote": false
+        "jsxSingleQuote": true
       }
     },
     {

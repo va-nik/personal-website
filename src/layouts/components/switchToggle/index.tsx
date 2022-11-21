@@ -12,11 +12,11 @@ export const SwitchToggle: React.FC = () => {
     const theme = useMantineTheme()
 
     return (
-        <Group position="center" my={30}>
+        <Group position='center' my={30}>
             <Switch
                 checked={colorScheme === 'dark'}
                 onChange={() => toggleColorScheme()}
-                size="lg"
+                size='lg'
                 onLabel={<IconSun color={theme.white} size={20} stroke={1.5} />}
                 offLabel={
                     <IconMoonStars

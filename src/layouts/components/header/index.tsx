@@ -116,12 +116,12 @@ export const Header: React.FC<HeaderMiddleProps> = ({
     ))
 
     return (
-        <MainHeader height={56} mb={120}>
+        <MainHeader height={56}>
             <Container className={classes.inner}>
                 <Burger
                     opened={opened}
                     onClick={toggle}
-                    size="sm"
+                    size='sm'
                     className={classes.burger}
                 />
                 <Group className={classes.links} spacing={5}>
@@ -133,16 +133,16 @@ export const Header: React.FC<HeaderMiddleProps> = ({
                 <Group
                     spacing={0}
                     className={classes.social}
-                    position="right"
+                    position='right'
                     noWrap
                 >
-                    <ActionIcon size="lg">
+                    <ActionIcon size='lg'>
                         <IconBrandTwitter size={18} stroke={1.5} />
                     </ActionIcon>
-                    <ActionIcon size="lg">
+                    <ActionIcon size='lg'>
                         <IconBrandYoutube size={18} stroke={1.5} />
                     </ActionIcon>
-                    <ActionIcon size="lg">
+                    <ActionIcon size='lg'>
                         <IconBrandInstagram size={18} stroke={1.5} />
                     </ActionIcon>
                 </Group>
