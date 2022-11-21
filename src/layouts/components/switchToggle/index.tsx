@@ -1,10 +1,5 @@
 import React from 'react'
-import {
-    Switch,
-    Group,
-    useMantineColorScheme,
-    useMantineTheme,
-} from '@mantine/core'
+import { Switch, useMantineColorScheme, useMantineTheme } from '@mantine/core'
 import { IconSun, IconMoonStars } from '@tabler/icons'
 
 export const SwitchToggle: React.FC = () => {
@@ -12,20 +7,18 @@ export const SwitchToggle: React.FC = () => {
     const theme = useMantineTheme()
 
     return (
-        <Group position='center' my={30}>
-            <Switch
-                checked={colorScheme === 'dark'}
-                onChange={() => toggleColorScheme()}
-                size='lg'
-                onLabel={<IconSun color={theme.white} size={20} stroke={1.5} />}
-                offLabel={
-                    <IconMoonStars
-                        color={theme.colors.gray[6]}
-                        size={20}
-                        stroke={1.5}
-                    />
-                }
-            />
-        </Group>
+        <Switch
+            checked={colorScheme === 'dark'}
+            onChange={() => toggleColorScheme()}
+            size='lg'
+            onLabel={<IconSun color={theme.white} size={20} stroke={1.5} />}
+            offLabel={
+                <IconMoonStars
+                    color={theme.colors.gray[6]}
+                    size={20}
+                    stroke={1.5}
+                />
+            }
+        />
     )
 }

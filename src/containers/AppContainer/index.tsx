@@ -1,10 +1,11 @@
 import React from 'react'
-import { AppTitle } from './componetns'
+import { AppCards, AppTitle } from './containers'
 
 export const AppContainer: React.FC = () => {
     return (
         <>
             <AppTitle />
+            <AppCards />
         </>
     )
 }

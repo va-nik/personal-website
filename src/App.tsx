@@ -8,7 +8,7 @@ import { Layout } from './layouts'
 import { AppContainer } from './containers'
 
 export const App: React.FC = () => {
-    const [colorScheme, setColorScheme] = useState<ColorScheme>('light')
+    const [colorScheme, setColorScheme] = useState<ColorScheme>('dark')
     const toggleColorScheme = (value?: ColorScheme) =>
         setColorScheme(value || (colorScheme === 'dark' ? 'light' : 'dark'))
 
