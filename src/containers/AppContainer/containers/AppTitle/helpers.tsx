@@ -8,7 +8,8 @@ export const titleStyles = createStyles((theme) => ({
         boxSizing: 'border-box',
         backgroundColor:
             theme.colorScheme === 'dark' ? theme.colors.dark[7] : theme.white,
-        height: '100vh',
+        // height: '100vh',
+        height: '100%',
     },
 
     inner: {

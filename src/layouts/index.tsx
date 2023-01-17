@@ -8,7 +8,7 @@ export const Layout: React.FC<{ children?: React.ReactNode }> = ({
         <>
             <Header links={[{ link: 'test', label: 'test' }]} />
             <Content>{children}</Content>
-            <Footer links={[{ link: 'test', label: 'test' }]} />
+            <Footer links={[{ link: 'link 1', label: 'link 1' }]} />
         </>
     )
 }
